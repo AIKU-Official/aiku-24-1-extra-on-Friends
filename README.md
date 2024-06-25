@@ -5,7 +5,7 @@
 ## 소개
 
 ### 내가 프렌즈에 출연한다면?
-<img src="./assest/friends.png">
+<img src="./asset/friends.png">
 
 위와 같은 상상 한 번쯤 해보신 적 있을 겁니다. 
 
@@ -16,7 +16,7 @@
 ## 방법론
 
 ### 문제 정의
-<img src="./assest/scene_aware_pose.png" width="61.5%"><img src="./assest/pose_transfer.png" width="38%">
+<img src="./asset/scene_aware_pose.png" width="61.5%"><img src="./asset/pose_transfer.png" width="38%">
 
 사람 이미지를 합성할 때 단순 복사, 붙여넣기 하는 것보다는 사람이 이미지에 어울리는 포즈를 취하고 있는 것이 자연스러울 것입니다.
 
@@ -25,7 +25,7 @@
 이러한 방식을 통해 semantic하게 자연스러운 이미지를 합성할 수 있습니다. 
 
 ### 파이프라인
-<img src="./assest/pipeline.png">
+<img src="./asset/pipeline.png">
 
 1. 이미지와 이미지 상의 위치가 주어지면, 해당 위치에 scene-aware한 pose keypoints 생성
 2. MPII 형식의 pose keypoints를 COCO 형식의 pose keypoints로 매핑
@@ -60,22 +60,22 @@
 ## 예시 결과
 
 ### Input (원본 이미지 + 위치(빨간 점) + 합성하려는 사람 이미지)
-<img src="./assest/inference_source_image.png" width="52.6%"><img src="./assest/inference_target_human.png" width="23.05%">
+<img src="./asset/inference_source_image.png" width="52.6%"><img src="./asset/inference_target_human.png" width="23.05%">
 
 ***
 
 ### Pose Generation & Pose Mapping (MPII to COCO)
-<img src="./assest/inference_generated_pose.png" width="75%"><img src="./assest/inference_converted_keypoints.png" width="75%">
+<img src="./asset/inference_generated_pose.png" width="75%"><img src="./asset/inference_converted_keypoints.png" width="75%">
 
 ***
 
 ### Pose Transfer & Face Swap
-<img src="./assest/inference_transfered_human.png" width="37.5%"><img src="./assest/inference_generated_human.png" width="37.5%">
+<img src="./asset/inference_transfered_human.png" width="37.5%"><img src="./asset/inference_generated_human.png" width="37.5%">
 
 ***
 
 ### Output
-<img src="./assest/inference_combined_image.png" width="75%">
+<img src="./asset/inference_combined_image.png" width="75%">
 
 ***
 
